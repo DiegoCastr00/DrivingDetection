@@ -124,6 +124,7 @@ def draw_bboxes(frame, detections):
         cv2.rectangle(frame, (x1,y1), (x2,y2), (0,255,0), 3)
 
 
+
 def get_color(number):
     """ Converts an integer number to a color """
     # change these however you want to
